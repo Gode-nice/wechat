@@ -1,0 +1,11 @@
+/* miniprogram/pages/video/video.wxss */
+.video{
+  margin-top: 20rpx;
+  width: 100%;
+}
+.title{
+  text-align: center;
+}
+.head{
+  margin-top: 100rpx;
+}

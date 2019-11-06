@@ -1,0 +1,8 @@
+<view class="card">
+<image src="{{avatarUrl}}" class="headimg"></image>
+<button class="name" open-type="getUserInfo" bindgetuserinfo="onGetUserInfo">{{name}}</button>
+</view>
+<view class="card">
+<view class="coll">收藏夹</view>
+</view>
+<!-- <view class="test">有诗</view> -->

@@ -1,0 +1,18 @@
+<view class="bg">
+<view class="head">
+<view class="title">{{title}}</view>
+<view class="dynasty">「{{dynasty}}」</view>
+<view class="author">{{author}}</view>
+</view>
+<view class="body">
+<view wx:for="{{list}}" wx:for-item="i">
+  <view class="{{list_}}">{{i}}</view>
+</view>
+</view>
+<view class="chan">
+<view class="change" bindtap="change" id="1">原文</view>
+<view class="change" bindtap="change" id="2">翻译</view>
+<view class="change" bindtap="change" id="3">赏析</view>
+<view class="change" bindtap="change" id="4">注解</view>
+</view>
+</view>
